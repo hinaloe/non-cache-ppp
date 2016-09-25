@@ -17,6 +17,8 @@ This plugin send `Cache-Control: no-cache, must-revalidate` header when show [pu
 In other word, that make skip cache of CDN (like CloudFlare, CloudFront... and other), or Proxy-Cache (Like Nginx).
 So, outside people always can see newest draft, and there is no need extra time to close public draft.
 
+This plugin needs PHP 5.3+
+
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
