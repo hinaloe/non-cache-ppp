@@ -7,7 +7,7 @@
  * Author URI:      https://hinaloe.net
  * Text Domain:     non-cache-ppp
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         1.0.0
  *
  * @package         Non_Cache_Ppp
  */
