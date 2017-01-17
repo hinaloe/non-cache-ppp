@@ -7,7 +7,7 @@
  * Author URI:      https://hinaloe.net
  * Text Domain:     non-cache-ppp
  * Domain Path:     /languages
- * Version:         1.0.0
+ * Version:         1.0.1
  *
  * @package         Non_Cache_Ppp
  */
@@ -21,7 +21,7 @@ if ( ! is_admin() ) {
 			$query->get( '_ppp' ) &&
 			! headers_sent()
 		) {
-			header( 'Cache-Control: no-cache, must-revalidate' );
+			nocache_headers();
 		}
 
 		return $query;

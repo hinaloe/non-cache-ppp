@@ -19,14 +19,17 @@ So, outside people always can see newest draft, and there is no need extra time 
 
 This plugin needs PHP 5.3+
 
+Note: If you're using CloudFront, you should also use [C3 Cloudfront Cache Controller](https://wordpress.org/plugins/c3-cloudfront-clear-cache/)
+
 ## Installation ##
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 ## Changelog ##
+### 1.0.1 ###
+* Use built in function for disable cache.
 
 ### 1.0 ###
 * First release
-
 
