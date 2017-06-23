@@ -3,7 +3,7 @@ Contributors: hnle
 Donate link: https://hinaloe.net/
 Tags: public, post, preview, posts, custom post types, draft, cache, cdn, cloudfront, cloudflare, proxy cache, nginx
 Requires at least: 3.7
-Tested up to: 4.6.1
+Tested up to: 4.8
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,6 +11,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Disable cache when show public post preview post
 
 == Description ==
+
+> You no longer have to use this plugin because it was merged to [PPP plugin](https://ja.wordpress.org/plugins/public-post-preview/) at v2.6.0.
 
 This plugin send `Cache-Control: no-cache, must-revalidate` header when show [public-post-preview](https://wordpress.org/plugins/public-post-preview/) post.
 
